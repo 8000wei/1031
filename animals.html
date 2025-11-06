@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>可領養動物</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">可領養動物</a>
+    <a href="adopt.html" class="nav__link">我要領養</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>🐾 可領養的毛孩們</h1>
+    <p style="text-align:center;">看看牠們的笑容，也許有一隻正等著你 💕</p>
+
+    <div class="gallery">
+  <!-- 小福 -->
+  <div class="animal-card">
+    <img src="images/images1.jpg" alt="柴犬小福" class="animal-img" onclick="document.getElementById('info1').showModal()">
+    <p>🐶 柴犬小福</p>
+  </div>
+
+  <dialog id="info1" class="animal-dialog">
+    <h2>🐶 柴犬小福</h2>
+    <img src="images/images1.jpg" alt="柴犬小福" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：活潑、喜歡曬太陽 ☀️<br>健康狀況：已結紮，定期施打疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+  <!-- 阿寶 -->
+  <div class="animal-card">
+    <img src="images/images2.jpg" alt="米克斯阿寶" class="animal-img" onclick="document.getElementById('info2').showModal()">
+    <p> 米克斯阿寶</p>
+  </div>
+
+  <dialog id="info2" class="animal-dialog">
+    <h2> 米克斯阿寶</h2>
+    <img src="images/images2.jpg" alt="米克斯阿寶" class="dialog-img">
+    <p>年齡：約 3 歲<br>個性：忠誠、有點害羞 🐕🦺<br>健康狀況：已接種疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+  <div class="animal-card">
+    <img src="images/images3.jpg" alt="奶牛貓牛奶" class="animal-img" onclick="document.getElementById('info3').showModal()">
+    <p> 奶牛貓牛奶</p>
+  </div>
+
+  <dialog id="info3" class="animal-dialog">
+    <h2> 奶牛貓牛奶</h2>
+    <img src="images/images3.jpg" alt="奶牛貓牛奶" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：淘氣好動、喜歡玩玩具 <br>健康狀況：已結紮，定期施打疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+ <div class="animal-card">
+    <img src="images/H173459133342.jpg" alt="德文貓捲捲" class="animal-img" onclick="document.getElementById('info4').showModal()">
+    <p> 德文貓捲捲</p>
+  </div>
+
+  <dialog id="info4" class="animal-dialog">
+    <h2> 德文貓捲捲</h2>
+    <img src="images/H173459133342.jpg" alt="德文貓捲捲" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：黏人、喜歡摸摸 <br>健康狀況：已結紮，定期施打疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+  <div class="animal-card">
+    <img src="images/images (1).jpg" alt="赤狐笑笑" class="animal-img" onclick="document.getElementById('info5').showModal()">
+    <p> 赤狐笑笑</p>
+  </div>
+
+  <dialog id="info5" class="animal-dialog">
+    <h2> 赤狐笑笑</h2>
+    <img src="images/images (1).jpg" alt="赤狐笑笑" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：黏人、喜歡被摸摸 <br>健康狀況：已結紮，定期施打疫苗</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+
+ <div class="animal-card">
+    <img src="images/1280.jpeg" alt="守宮大頭" class="animal-img" onclick="document.getElementById('info6').showModal()">
+    <p> 守宮大頭</p>
+  </div>
+
+  <dialog id="info6" class="animal-dialog">
+    <h2> 德文貓捲捲</h2>
+    <img src="images/1280.jpeg" alt="守宮大頭" class="dialog-img">
+    <p>年齡：約 2 歲<br>個性：乖巧、隨叫隨到 <br>健康狀況：健康</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+ </div>
+
+  <footer>
+    © 2025 幸福毛孩領養園地 | 傳遞愛，從領養開始 🐾
+  </footer>
+</body>
+</html>
